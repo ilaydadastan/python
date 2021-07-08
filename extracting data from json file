@@ -1,0 +1,8 @@
+import json
+
+with open('/Users/ilaydadastan/Downloads/accounts.json') as f:
+  data = json.load(f)
+
+all_accounts = data['accounts']
+for account in all_accounts:
+   print(account['domain'])
