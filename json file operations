@@ -30,3 +30,7 @@ print('toplam kişi sayisi: ' + str(toplam))
 print('toplam ögrenci sayisi: '+ str(ogrenci_sayisi))
 print('toplam developer sayisi: '+ str (developer))
 print('toplam product manager sayisi: ' + str(product_manager))
+
+
+""" Objects in the json file are called by determining their location. 
+And with the values on these invoked objects, necessary operations are performed and printed. """
