@@ -1,0 +1,7 @@
+sayi=1
+while(True):
+    if sayi>100:
+        break
+    if sayi%2==0:
+        print(sayi)
+    sayi=sayi+1
