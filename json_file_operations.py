@@ -13,13 +13,10 @@ for person in data:
      response= person['job']
      yas_toplam = yas_toplam + person['yas']
      if response == 'öğrenci':
-         #print(person ['name'])
          ogrenci_sayisi = ogrenci_sayisi + 1
      if response == 'developer':
-         #print(person ['name'])
          developer = developer + 1
      if response == 'product manager':
-         #print(person ['name'])
          product_manager = product_manager + 1
        
 toplam= ogrenci_sayisi+developer+product_manager        
