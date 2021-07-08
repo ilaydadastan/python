@@ -1,4 +1,4 @@
-sayi=1
+sayi=1 """ This is the value from which the number will be initialized. """
 while(True):
     if sayi>100:
         break
