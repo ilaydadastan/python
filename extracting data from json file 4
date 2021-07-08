@@ -3,4 +3,4 @@ import json
 with open('/Users/ilaydadastan/Downloads/accounts.json') as f:
   data = json.load(f)
 
-print(data['accounts'][1]['domain'])
+print(data['accounts'][1]['domain']) """ The location of the object in the json file is taken to call the field in it. """
