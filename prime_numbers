@@ -1,4 +1,4 @@
-sayi=2
+sayi=2  """ Since prime numbers start from 2, number=2 can be started. """
 control=2
 while(True):
     if sayi>100:
@@ -6,7 +6,7 @@ while(True):
     while(True):
         if  control==sayi:
             print (str(sayi) + ' asaldir')
-            break
+            break 
         else:
             if sayi%control==0:
                 break
