@@ -1,0 +1,6 @@
+import json
+
+with open('/Users/ilaydadastan/Downloads/accounts.json') as f:
+  data = json.load(f)
+
+print (data['accounts'][2]['collectionName'])
